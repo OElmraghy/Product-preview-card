@@ -25,7 +25,7 @@ body {
 
 .card {
   display: flex;
-  width: 700px;
+  width: 600px;
   background-color: var(--White);
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -59,15 +59,17 @@ body {
   color: var(--Dark-grayish-blue);
   text-transform: uppercase;
   letter-spacing: 0.4rem;
+  font-size: 0.8rem;
 }
 
-.card-info h2 {
+.card-info h1 {
   color: var(--Very-dark-blue);
   text-transform: capitalize;
   max-width: 245px;
-  font-size: 2.3rem;
+  font-size: 2.0125rem;
+  line-height: 1;
   font-family: "Fraunces", serif;
-  margin: 1rem 0 1rem;
+  margin: 1.5rem 0;
 }
 
 .card-info p {
@@ -91,7 +93,7 @@ body {
 
 .card-info .price span:first-child {
   font-family: "Fraunces", serif;
-  font-size: 2.3rem;
+  font-size: 2.0125rem;
   color: var(--Dark-cyan);
   margin-right: 25px;
 }
@@ -99,6 +101,7 @@ body {
 .card-info .price span:last-child {
   color: var(--Dark-grayish-blue);
   text-decoration: line-through;
+  font-size: 0.9rem;
 }
 
 .card-info button {
@@ -109,8 +112,8 @@ body {
   color: var(--White);
   background-color: var(--Dark-cyan);
   width: 100%;
-  padding: 1.2rem;
-  font-size: 1rem;
+  padding: 0.8rem;
+  font-size: 0.8rem;
   font-weight: bold;
   border: none;
   cursor: pointer;
