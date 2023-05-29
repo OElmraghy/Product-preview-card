@@ -38,7 +38,7 @@ Users should be able to:
 
 - CSS custom properties
 - Flexbox
-- Desktob-first workflow
+- Desktop-first workflow
 
 ## Author
 
